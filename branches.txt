@@ -1,0 +1,5 @@
+master - direct clone of EricGT/Master
+
+pages-theme-slate - direct clone of pages-themes/slate
+
+gh-pages - master rebased on top of pages-themes-slate (`git rebase --root pages-theme-slate`)
