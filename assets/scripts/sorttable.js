@@ -31,12 +31,12 @@ sorttable = {
 
     sorttable.DATE_RE = /^(\d\d?)[\/\.-](\d\d?)[\/\.-]((\d\d)?\d\d)$/;
 
-    forEach(document.getElementsByTagName('table'), function(table) {
+    /*forEach(document.getElementsByTagName('table'), function(table) {
       if (table.className.search(/\bsortable\b/) != -1) {
         sorttable.makeSortable(table);
       }
-    });
-
+    });*/
+	sorttable.makeSortable(document.querySelector('table'));
   },
 
   makeSortable: function(table) {
